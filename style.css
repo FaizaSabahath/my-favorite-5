@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+    background: linear-gradient(#C850B0 30%, #42033e 100%);
+    background-repeat: no-repeat;
+} 
+
+h1 {
+    color: cyan;
+    font-size: 30px;
+    font-family: 'PT Serif', serif;
+    text-shadow: 2px 2px #f8bb80;
+}
+
+p {
+    color: crimson;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    height: 490px;
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+}
+
+h2 {
+    color: ghostwhite;
+}
+
+.line {
+    height: 10px;
+    width: 60px;
+    background-color: #0000ff;
+    margin: 8px auto;
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+    transition: transform .2s;
+    border: 10px solid #0000ff;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.menu {
+    font-size: 18px;
+    list-style: none;
+    font-family: 'Lobster', cursive;
+    position: fixed;
+    z-index: 6;
+    top: -10px;
+    padding-left: 30px;
+    padding-right: 60px;
+    margin-left: 10px;
+    background-image: radial-gradient(circle, #0000ff, cyan);
+    margin-top: 0px;
+}
+
+.link {
+    float: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 25px;
+    color: crimson;
+}
+
+.link:hover {
+    background-color: deeppink;
+    text-decoration: none;
+}
+
+#para {
+    color: aqua;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#chefs {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#home {
+    height: 230px;
+}
+
+#chefs {
+    text-align: center;
+}
+
+.masterchef {
+    font-size: 20px;
+    color: aqua;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#contact{
+    height: 700px;
+}
+.contact1 span{
+    display: inline;
+    font-size: 25px;
+    color: white;
+}
